@@ -21,6 +21,9 @@ const ContactProfile = ({ contact }) => {
   );
 };
 
+ContactProfile.propTypes = {
+  contact: PropTypes.instanceOf(Contact),
+};
 
 
 
