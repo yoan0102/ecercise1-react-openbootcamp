@@ -10,7 +10,13 @@ const ContactComponent = () => {
 
   return (
     <div>
-      
+      <div>
+        Your Contact:
+      </div>
+      <div>
+        <ContactProfile contact={ defaultContact } />
+      </div>
+
     </div>
   );
 };
